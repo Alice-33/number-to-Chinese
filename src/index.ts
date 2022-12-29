@@ -2,7 +2,7 @@ const digitalToChinese = (num: number) => {
     const chnNum = ['零', '一', '二', '三', '四', '五', '六', '七', '八', '九'];
     const chnUnitSection = ['', '万', '亿', '万亿'];
     const chnUnit = ['', '十', '百', '千'];
-    const chnStr: any = [];
+    const chnStr: string[] = [];
     let unitPos = 0;
     let needZero = false;
     if (num === 0) {
