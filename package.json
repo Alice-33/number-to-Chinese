@@ -1,5 +1,5 @@
 {
-  "name": "number-to-chinese",
+  "name": "arabic-numerals-to-chinese",
   "version": "1.0.0",
   "description": "Convert Arabic numerals to Chinese characters",
   "main": "lib/index.js",
